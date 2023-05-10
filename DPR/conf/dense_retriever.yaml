@@ -70,7 +70,7 @@ global_loss_buf_sz: 150000
 device:
 distributed_world_size:
 distributed_port:
-no_cuda: False
+no_cuda: True
 n_gpu:
 fp16: False
 
