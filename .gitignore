@@ -3,3 +3,4 @@ DPR/downloads/*
 DPR/outputs/*
 __pycache__/
 *.pyc
+v1.0-simplified_simplified-nq-train.jsonl
