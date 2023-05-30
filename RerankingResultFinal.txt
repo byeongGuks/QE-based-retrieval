@@ -1,0 +1,408 @@
+Bert (Top-k=10,5,1)
+
+-Question(Original query)
+Top10
+Accuracy@10: 0.7978
+Precision@10: 0.4290
+MRR@10: 0.5088
+MAP@10: 0.4467
+nDCG@10: 0.3511
+
+Top5
+Accuracy@5: 0.6801
+Precision@5: 0.3059
+MRR@5: 0.4926
+MAP@5: 0.4676
+nDCG@5: 0.3143
+
+Top1
+Accuracy@1: 0.3860
+Precision@1: 0.1096
+MRR@1: 0.3860
+MAP@1: 0.3860
+nDCG@1: 0.1930
+
+
+-Expanded_query1
+Top10
+Accuracy@10: 0.8088
+Precision@10: 0.4508
+MRR@10: 0.4985
+MAP@10: 0.4552
+nDCG@10: 0.3633
+
+Top5
+Accuracy@5: 0.7132
+Precision@5: 0.3213
+MRR@5: 0.4851
+MAP@5: 0.4705
+nDCG@5: 0.3240
+
+Top1
+Accuracy@1: 0.3603
+Precision@1: 0.0906
+MRR@1: 0.3603
+MAP@1: 0.3603
+nDCG@1: 0.1801
+
+-Expanded_query 2
+Top10
+Accuracy@10: 0.8272
+Precision@10: 0.4729
+MRR@10: 0.5201
+MAP@10: 0.4724
+nDCG@10: 0.3770
+
+Top5
+Accuracy@5: 0.6985
+Precision@5: 0.3300
+MRR@5: 0.5036
+MAP@5: 0.4783
+nDCG@5: 0.3349
+
+Top1
+Accuracy@1: 0.3971
+Precision@1: 0.1029
+MRR@1: 0.3971
+MAP@1: 0.3971
+nDCG@1: 0.1985
+
+-Expanded_query 3(Expanded_query2 약간 수정된것)
+Top10
+Accuracy@10: 0.7978
+Precision@10: 0.4230
+MRR@10: 0.4808
+MAP@10: 0.4408
+nDCG@10: 0.3474
+
+Top5
+Accuracy@5: 0.6507
+Precision@5: 0.2899
+MRR@5: 0.4610
+MAP@5: 0.4479
+nDCG@5: 0.3044
+
+Top1
+Accuracy@1: 0.3566
+Precision@1: 0.0907
+MRR@1: 0.3566
+MAP@1: 0.3566
+nDCG@1: 0.1783
+
+-Expanded_query 4(Expanded_query3에서 expansion point제거된것)
+Top10
+Accuracy@10: 0.8015
+Precision@10: 0.4319
+MRR@10: 0.4846
+MAP@10: 0.4354
+nDCG@10: 0.3478
+
+Top5
+Accuracy@5: 0.6728
+Precision@5: 0.3004
+MRR@5: 0.4676
+MAP@5: 0.4532
+nDCG@5: 0.3079
+
+Top1
+Accuracy@1: 0.3419
+Precision@1: 0.0965
+MRR@1: 0.3419
+MAP@1: 0.3419
+nDCG@1: 0.1710
+
+-ChatGPT
+Top10
+Accuracy@10: 0.8199
+Precision@10: 0.4419
+MRR@10: 0.5041
+MAP@10: 0.4553
+nDCG@10: 0.3589
+
+Top5
+Accuracy@5: 0.7132
+Precision@5: 0.3175
+MRR@5: 0.4905
+MAP@5: 0.4722
+nDCG@5: 0.3232
+
+Top1
+Accuracy@1: 0.3566
+Precision@1: 0.0981
+MRR@1: 0.3566
+MAP@1: 0.3566
+nDCG@1: 0.1783
+
+
+T5 (Top-k=10,5,1)
+
+-Question(Original query)
+Top10
+Accuracy@10: 0.8199
+Precision@10: 0.4334
+MRR@10: 0.4789
+MAP@10: 0.4313
+nDCG@10: 0.3473
+
+Top5
+Accuracy@5: 0.6397
+Precision@5: 0.2789
+MRR@5: 0.4535
+MAP@5: 0.4362
+nDCG@5: 0.2966
+
+Top1
+Accuracy@1: 0.3382
+Precision@1: 0.0958
+MRR@1: 0.3382
+MAP@1: 0.3382
+nDCG@1: 0.1691
+
+
+-Expanded_query1
+Top10
+Accuracy@10: 0.7794
+Precision@10: 0.3892
+MRR@10: 0.4604
+MAP@10: 0.4138
+nDCG@10: 0.3321
+
+Top5
+Accuracy@5: 0.6434
+Precision@5: 0.2644
+MRR@5: 0.4425
+MAP@5: 0.4259
+nDCG@5: 0.2918
+
+Top1
+Accuracy@1: 0.2978
+Precision@1: 0.0663
+MRR@1: 0.2978
+MAP@1: 0.2978
+nDCG@1: 0.1489
+
+
+-Expanded_query 2
+Top10
+Accuracy@10: 0.8015
+Precision@10: 0.4387
+MRR@10: 0.4809
+MAP@10: 0.4382
+nDCG@10: 0.3531
+
+Top5
+Accuracy@5: 0.6801
+Precision@5: 0.2967
+MRR@5: 0.4643
+MAP@5: 0.4524
+nDCG@5: 0.3110
+
+Top1
+Accuracy@1: 0.3419
+Precision@1: 0.0833
+MRR@1: 0.3419
+MAP@1: 0.3419
+nDCG@1: 0.1710
+
+-Expanded_query 3(Expanded_query2 약간 수정된것)
+Top10
+Accuracy@10: 0.7831
+Precision@10: 0.4163
+MRR@10: 0.4708
+MAP@10: 0.4284
+nDCG@10: 0.3392
+
+Top5
+Accuracy@5: 0.6360
+Precision@5: 0.2759
+MRR@5: 0.4502
+MAP@5: 0.4301
+nDCG@5: 0.2938
+
+Top1
+Accuracy@1: 0.3456
+Precision@1: 0.0895
+MRR@1: 0.3456
+MAP@1: 0.3456
+nDCG@1: 0.1728
+
+-Expanded_query 4(Expanded_query3에서 expansion point제거된것)
+Top10
+Accuracy@10: 0.7794
+Precision@10: 0.4092
+MRR@10: 0.4771
+MAP@10: 0.4270
+nDCG@10: 0.3385
+
+Top5
+Accuracy@5: 0.6544
+Precision@5: 0.2894
+MRR@5: 0.4596
+MAP@5: 0.4400
+nDCG@5: 0.2996
+
+Top1
+Accuracy@1: 0.3493
+Precision@1: 0.0984
+MRR@1: 0.3493
+MAP@1: 0.3493
+nDCG@1: 0.1746
+
+-ChatGPT
+Top10
+Accuracy@10: 0.8125
+Precision@10: 0.4364
+MRR@10: 0.4842
+MAP@10: 0.4399
+nDCG@10: 0.3504
+
+Top5
+Accuracy@5: 0.7022
+Precision@5: 0.3080
+MRR@5: 0.4699
+MAP@5: 0.4551
+nDCG@5: 0.3122
+
+Top1
+Accuracy@1: 0.3382
+Precision@1: 0.0888
+MRR@1: 0.3382
+MAP@1: 0.3382
+nDCG@1: 0.1691
+
+
+BM25 (Top-k=10,5,1)
+
+-Question(Original query)
+Top10
+Accuracy@10: 0.5478
+Precision@10: 0.2080
+MRR@10: 0.2582
+MAP@10: 0.2370
+nDCG@10: 0.1961
+
+Top5
+Accuracy@5: 0.4044
+Precision@5: 0.1247
+MRR@5: 0.2396
+MAP@5: 0.2317
+nDCG@5: 0.1603
+
+Top1
+Accuracy@1: 0.1471
+Precision@1: 0.0266
+MRR@1: 0.1471
+MAP@1: 0.1471
+nDCG@1: 0.0735
+
+
+-Expanded_query1
+Top10
+Accuracy@10: 0.6507
+Precision@10: 0.2936
+MRR@10: 0.3486
+MAP@10: 0.3134
+nDCG@10: 0.2649
+
+Top5
+Accuracy@5: 0.4926
+Precision@5: 0.1763
+MRR@5: 0.3275
+MAP@5: 0.3173
+nDCG@5: 0.2227
+
+Top1
+Accuracy@1: 0.2390
+Precision@1: 0.0428
+MRR@1: 0.2390
+MAP@1: 0.2390
+nDCG@1: 0.1195
+
+
+-Expanded_query 2
+Top10
+Accuracy@10: 0.6728
+Precision@10: 0.3004
+MRR@10: 0.3905
+MAP@10: 0.3488
+nDCG@10: 0.2828
+
+Top5
+Accuracy@5: 0.5515
+Precision@5: 0.1994
+MRR@5: 0.3738
+MAP@5: 0.3556
+nDCG@5: 0.2475
+
+Top1
+Accuracy@1: 0.2390
+Precision@1: 0.0428
+MRR@1: 0.2390
+MAP@1: 0.2390
+nDCG@1: 0.1195
+
+-Expanded_query 3(Expanded_query2 약간 수정된것)
+Top10
+Accuracy@10: 0.5846
+Precision@10: 0.2343
+MRR@10: 0.3001
+MAP@10: 0.2706
+nDCG@10: 0.2244
+
+Top5
+Accuracy@5: 0.4301
+Precision@5: 0.1417
+MRR@5: 0.2795
+MAP@5: 0.2698
+nDCG@5: 0.1880
+
+Top1
+Accuracy@1: 0.1985
+Precision@1: 0.0348
+MRR@1: 0.1985
+MAP@1: 0.1985
+nDCG@1: 0.0993
+
+-Expanded_query 4(Expanded_query3에서 expansion point제거된것)
+Top10
+Accuracy@10: 0.5662
+Precision@10: 0.2157
+MRR@10: 0.2667
+MAP@10: 0.2419
+nDCG@10: 0.2033
+
+Top5
+Accuracy@5: 0.4081
+Precision@5: 0.1223
+MRR@5: 0.2464
+MAP@5: 0.2365
+nDCG@5: 0.1628
+
+Top1
+Accuracy@1: 0.1691
+Precision@1: 0.0250
+MRR@1: 0.1691
+MAP@1: 0.1691
+nDCG@1: 0.0846
+
+-ChatGPT
+Top10
+Accuracy@10: 0.6324
+Precision@10: 0.2595
+MRR@10: 0.2757
+MAP@10: 0.2545
+nDCG@10: 0.2187
+
+Top5
+Accuracy@5: 0.5515
+Precision@5: 0.1994
+MRR@5: 0.3738
+MAP@5: 0.3556
+nDCG@5: 0.2475
+
+Top1
+Accuracy@1: 0.2390
+Precision@1: 0.0428
+MRR@1: 0.2390
+MAP@1: 0.2390
+nDCG@1: 0.1195
